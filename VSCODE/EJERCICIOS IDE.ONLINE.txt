@@ -1,0 +1,40 @@
+import random as r 
+suma = r.randint(5,60)
+print(suma) 
+
+
+edad = int(input("ingrese la edad"))
+if edad >= 18:
+    print("eres mayor de edad")
+else:
+    print("eres menor de edad")
+    
+A = 10
+B = 15
+
+if A < B:
+    print("es menor a B")
+else:
+    print("es mayor a B")
+
+nota = float(input("ingrese su nota"))
+
+if nota >= 3.5:
+    print("gano la materia")
+else:
+    print("perdio la materia")
+    
+altura = float(input("ingrese su altura"))
+
+if altura >= 1.80:
+    print("usted es alto")
+else:
+    print("usted no es alto")
+    
+nombre = (input("ingrese su nombre")).upper()
+
+if nombre == "juan":
+    print("usted es el ganador")
+else:
+    print("usted perdio")
+    

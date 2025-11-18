@@ -1,0 +1,31 @@
+{
+  "loans": [
+    {
+      "id": 1,
+      "userId": 1,
+      "bookId": 2,
+      "startDate": "2024-01-25",
+      "endDate": "2024-02-25",
+      "status": "active",
+      "type": "loan"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "bookId": 4,
+      "startDate": "2024-01-28",
+      "endDate": null,
+      "status": "reserved",
+      "type": "reservation"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "bookId": 1,
+      "startDate": "2024-01-20",
+      "endDate": "2024-01-27",
+      "status": "returned",
+      "type": "loan"
+    }
+  ]
+}

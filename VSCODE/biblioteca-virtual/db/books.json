@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "category": "ficcion",
+      "isbn": "978-84-376-0494-7",
+      "status": "available",
+      "description": "Una obra maestra de la literatura latinoamericana"
+    },
+    {
+      "id": 2,
+      "title": "El origen de las especies",
+      "author": "Charles Darwin",
+      "category": "ciencia",
+      "isbn": "978-84-206-6675-3",
+      "status": "borrowed",
+      "description": "Teoría de la evolución por selección natural"
+    },
+    {
+      "id": 3,
+      "title": "Breve historia del tiempo",
+      "author": "Stephen Hawking",
+      "category": "ciencia",
+      "isbn": "978-84-344-1374-6",
+      "status": "available",
+      "description": "Cosmología y física teórica explicada para todos"
+    },
+    {
+      "id": 4,
+      "title": "Don Quijote de la Mancha",
+      "author": "Miguel de Cervantes",
+      "category": "ficcion",
+      "isbn": "978-84-376-0031-4",
+      "status": "reserved",
+      "description": "La obra cumbre de la literatura española"
+    },
+    {
+      "id": 5,
+      "title": "Sapiens: De animales a dioses",
+      "author": "Yuval Noah Harari",
+      "category": "historia",
+      "isbn": "978-84-9992-275-0",
+      "status": "available",
+      "description": "Una breve historia de la humanidad"
+    },
+    {
+      "id": 6,
+      "title": "Algoritmos: Teoría y práctica",
+      "author": "Thomas H. Cormen",
+      "category": "tecnologia",
+      "isbn": "978-84-481-4081-6",
+      "status": "available",
+      "description": "Fundamentos de algoritmos y estructuras de datos"
+    }
+  ]
+}

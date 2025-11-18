@@ -1,0 +1,52 @@
+CREATE DATABASE bd_like
+use bd_like
+CREATE TABLE empleados
+(cod int primary key,
+nom varchar (50) not null,
+edad int,
+salario money,
+fecha_nac date
+)
+insert into empleados (cod, nom, edad, salario, fecha_nac)
+
+values
+
+(1,'Maria',25,1500000,'11/07/2000'),
+(2,'Sonia',36,2000000,'10/07/1989'),
+(3,'Sandra',41,3500000,'09/08/1984'),
+(4,'Alejandra',56,7600000,'06/01/1969'),
+(5,'Katalina',12,148000,'02/02/2013'),
+(6,'Jhon',13, 20000,'02/02/2012'),
+(7,'Kevin',15, 13000,'01/02/2010')
+
+select * from empleados
+where cod between 3 and 5 --VALIDE DE DATO A DATO 
+
+select * from empleados
+where nom like '%r%' --QUE CONTENGA LA LETRA '%A%'
+
+select * from empleados
+where nom like '%n' --QUE TERMINE'%A'
+
+select * from empleados
+where nom like 't%' --QUE COMIENCEN'A%'
+
+select * from empleados
+where nom like '%e%' --QUE CONTENGA LA LETRA '%A%'
+
+select * from empleados
+where nom like '[k,a]%' --SIEMPRE QUE TENGA [] VALIDA EL UNO O EL OTRO '[M,S][A,O]%'
+
+select * from empleados
+where edad between 18 and 30 --VALIDE DE DATO A DATO 
+
+select * from empleados
+where salario >= 3000000 --VALIDE SALARIO
+
+select * from empleados
+where fecha_nac between '1995' and '2000' --VALIDE DE DATO A DATO 
+
+
+
+
+

@@ -1,0 +1,224 @@
+NUMERO MAYOR
+
+do
+(
+console.writeline("ingrese un primer numero entero: ");
+var n1 = int.parse(console.readline());
+console.writeline("ingrese un segundo numero entero: ");
+var n2 = int.parse(console.readline());
+console.writeline("ingrese un tercer numero entero: ");
+var n3 = int.parse(console.readline());
+
+if(n1 > n2 & n2 > n3)
+(
+console.writeline("El numero mayor es: {n1}");
+)
+else if (n1 > n3 & n3 > n2)
+(
+console.writeline("El numero mayor es: {n1}");
+)
+else if (n2 > n1 & n1 > n3)
+(
+console.writeline("El numero mayor es: {n2}");
+)
+else if (n2 > n3 & n3 > n1)
+(
+console.writeline("El numero mayor es: {n2}");
+)
+else if (n3 > n1 & n1 > n2)
+(
+console.writeline("El numero mayor es: {n3}");
+)
+else
+(
+console.writeline("El numero mayor es: {n3}");
+)
+)while(true);
+
+punto de interrupcion y f10 para conocer errores
+
+ORDENAR NUMEROS
+
+1MERA FORMA
+
+do
+(
+console.writeline("ingrese un primer numero entero: ");
+var n1 = int.parse(console.readline());
+console.writeline("ingrese un segundo numero entero: ");
+var n2 = int.parse(console.readline());
+console.writeline("ingrese un tercer numero entero: ");
+var n3 = int.parse(console.readline());
+
+if(n1 > n2 & n2 > n3)
+(
+console.writeline("el numero es mayor:{n1}")
+console.writeline("el numero es medio:{n2}")
+console.writeline("el numero es menor:{n3}")
+)
+else if (n1 > n3 & n3 > n2)
+(
+console.writeline("el numero es mayor:{n1}")
+console.writeline("el numero es medio:{n3}")
+console.writeline("el numero es menor:{n2}")
+)
+else if (n2 > n1 & n1 > n3)
+(
+console.writeline("el numero es mayor:{n2}")
+console.writeline("el numero es medio:{n1}")
+console.writeline("el numero es menor:{n3}")
+)
+else if (n2 > n3 & n3 > n1)
+(
+console.writeline("el numero es mayor:{n2}")
+console.writeline("el numero es medio:{n3}")
+console.writeline("el numero es menor:{n1}")
+)
+else if (n3 > n1 & n1 > n2)
+(
+console.writeline("el numero es mayor:{n3}")
+console.writeline("el numero es medio:{n1}")
+console.writeline("el numero es menor:{n2}")
+)
+else
+(
+console.writeline("el numero es mayor:{n3}")
+console.writeline("el numero es medio:{n1}")
+console.writeline("el numero es menor:{n2}")
+)
+)while(true);
+
+2DA FORMA
+
+do
+(
+console.writeline("ingrese un primer numero entero: ");
+var n1 = int.parse(console.readline());
+console.writeline("ingrese un segundo numero entero: ");
+var n2 = int.parse(console.readline());
+console.writeline("ingrese un tercer numero entero: ");
+var n3 = int.parse(console.readline());
+
+int mayor;
+int medio;
+int menor;
+
+if(n1 > n2 & n1 > n3)
+ {
+  mayor = n1;
+    if(n2 > n3)
+     {
+      medio = n2;
+      menor = n3;
+     }
+    else
+    { 
+      medio = n3;
+      menor = n2;
+    }
+  }
+
+else if(n2 > n1 & n2 > n3)
+  {  
+    mayor = n2;
+    if(n1 > n3)
+    {
+      medio = n1;
+      menor = n3;
+    }
+    else
+    {
+      medio = n3;
+      menor = n1;
+    }
+else if(n3 > n1 & n3 > n2)
+  {
+    mayor = n3;
+    if(n1 > n2) 
+    {
+    medio = n1
+    menor = n2
+    }
+    else
+    {
+    medio = n2
+    menor = n1
+    }
+
+   }
+
+
+
+console.writeline($"el numero mayor es:{mayor} ")
+console.writeline($"el numero medio es:{medio} ")
+console.writeline($"el numero menor es:{menor} ")
+
+
+
+)while(true);
+
+MULTIPLO
+
+1MERA FORMA
+
+do(
+console.writeline("ingrese un primer numero entero: ");
+var n1 = int.parse(console.readline());
+console.writeline("ingrese un segundo numero entero: ");
+var n2 = int.parse(console.readline());
+
+if(n2 % n1 == 0)
+(
+console.writeline("el numero: {n2}, es multiplo de: {n1}")
+)
+else
+(
+console.writeline("el numero: {n2}, no es multiplo de: {n1}")
+)
+
+
+)while(true);
+
+2DA FORMA
+
+do(
+console.writeline("ingrese un primer numero entero: ");
+var n1 = (console.readline());
+    if(int.tryparse(n1, out int n1int))
+    {
+        console.writeline("ingrese un segundo numero entero: ");
+        var n2 = (console.readline());
+        if(int.tryparse(n2,out int n2int))
+        {
+           if(n1int % n2int == 0)
+           {
+              console.writeline("el numero: {n2}, es multiplo de: {n1}")
+           }
+           else
+           {
+              console.writeline("el numero: {n2}, no es multiplo de: {n1}")
+           }
+        }
+        else
+        {
+           console.write("debes ingresar un numero entero")
+        }
+
+    }
+    else
+    {
+      console.write("debes ingresar un numero entero")
+    }
+
+
+)while(true);
+
+
+
+
+
+
+
+
+
+
